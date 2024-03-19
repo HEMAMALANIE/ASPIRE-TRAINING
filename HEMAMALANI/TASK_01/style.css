@@ -1,0 +1,80 @@
+
+body {
+  /*background-color: #344a72;*/
+  background-image: url("../TASK_01/blue.jpg");
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  height: 627px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  color: #0d323e
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+     display: flex;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 4px solid #032733;
+  border-radius: 6px;
+  outline: none;
+}
+
+input[type="button"] {
+  width: 253px;
+    height: 35px;
+    margin-top: 36px;
+    border: none;
+    background-color: white;
+    color: #0d323e;
+    font-size: 18px;
+    font-weight: bolder;
+    
+    margin-left: 37px;
+}
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a {
+  color: #49c1a2;
+}

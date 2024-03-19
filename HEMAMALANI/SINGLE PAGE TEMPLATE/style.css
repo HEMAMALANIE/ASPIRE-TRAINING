@@ -1,0 +1,305 @@
+#header {
+  top: 0;
+  z-index: 10;
+}
+.navbar-dark .navbar-brand {
+  letter-spacing: 4px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(71, 201, 237) !important;
+}
+.btn {
+  background-color: #37517e !important;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #31a9e1 !important;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: lightskyblue !important;
+}
+
+/* ================================================================================================== */
+#content {
+  background-color: #37517e;
+}
+.contgetstart .btn-primary {
+  background-color: #31a9e1 !important;
+  color: white;
+}
+.contgetstart .btn-primary:hover {
+  color: #fff;
+  background-color: #209dd8 !important;
+}
+.home-watch-button {
+  color: white !important;
+}
+.home-watch-button span:hover {
+  color: #7ec1d7;
+}
+#content h1 {
+  color: #fff;
+}
+#content h2 {
+  color: rgba(255, 255, 255, 0.6);
+}
+#content .img-fluid {
+  position: relative;
+  animation: bounceAnimation 3s infinite;
+}
+@keyframes bounceAnimation {
+  0%,
+  100% {
+    transform: translateY(0); /* Initial and final position */
+  }
+  50% {
+    transform: translateY(-20px); /* Bouncing position - adjust as needed */
+  }
+}
+/*=========================================================================================================  */
+#clients {
+  position: relative;
+  background-color: #f3f5fa;
+}
+#clients img {
+  max-width: 45%;
+}
+/* ======================================================================================================================== */
+.section-title h2 {
+  position: relative;
+  color: #37517e;
+}
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+#About .btn-learn-more {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  transition: 0.3s;
+  color: #47b2e4;
+  animation-delay: 0.8s;
+}
+#About .btn-learn-more:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+#About .row ul li i {
+  color: #31a9e1;
+}
+
+/* ================================================================================================================== */
+#accordion {
+  background-color: #f3f5fa;
+}
+#accordion .container .row .content h3 {
+  color: #37517e;
+}
+#accordion .container .row .content p {
+  color: #848484;
+}
+.accordion-button strong {
+  color: #31a9e1;
+}
+
+/* ================================================================================================================================ */
+#skills .container h3 {
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+#skills .progress .skill {
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}
+#skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #4668a2;
+}
+/* ==================================================================================================================== */
+
+#services {
+  background-color: #f3f5fa;
+}
+#services .container .card-body {
+  transition: 0.5s;
+}
+#services .container .card-body .card-title {
+  color: rgb(28, 161, 233);
+}
+#services .container .card-body .boicon {
+  color: rgb(28, 161, 233);
+}
+#services .container .card-body:hover {
+  position: relative;
+  top: -1px;
+  transform: translateY(-10px);
+  box-shadow: 2px 0px 50px 10px rgb(142 150 147 / 23%);
+}
+#services .container .card-body:hover h5 {
+  color: #3292bf;
+}
+#services .container .card-body:hover i {
+  color: #3292bf;
+}
+/* ========================================================================================================== */
+#team {
+  background-color: #f3f5fa;
+}
+#team .member {
+  position: relative;
+  background: #fff;
+  transition: 0.5s;
+  height: 100%;
+}
+#team .member .pic {
+  width: 180px;
+}
+#team .member h4 {
+  color: #37517e;
+}
+#team .member span::after {
+  content: "";
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+  top: 5px;
+}
+#team .member p {
+  margin: 10px 0 0 0;
+  font-size: 15px;
+}
+#team .member .social a {
+  transition: ease-in-out 0.3s;
+  background: #eff2f8;
+}
+#team .member .social a:hover {
+  background-color: #31a9e1;
+}
+#team .member .social a i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 0 2px;
+}
+#team .member .social a:hover i {
+  color: white;
+}
+#team .container .row .col-lg-6 {
+  transition: 0.8s;
+}
+/* ======================================================================================================== */
+#Contact .info {
+  background: #fff;
+}
+#Contact .php-email-form {
+  background: #fff;
+}
+#Contact .info i {
+  font-size: 20px;
+  color: #47b2e4;
+  width: 44px;
+  height: 44px;
+  background: #e7f5fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  float: left;
+  transition: all 0.3s ease-in-out;
+}
+#Contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+#Contact .info p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+#Contact .php-email-form label {
+  padding-bottom: 8px;
+}
+#Contact .php-email-form .form-group {
+  margin-bottom: 20px;
+}
+#Contact .php-email-form button {
+  background: #47b2e4;
+  border: 0;
+  padding: 12px 34px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+#Contact .php-email-form button:hover {
+  background: #209dd8 !important;
+}
+/* =================================================================================================== */
+#footer .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#footer .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  margin: 0px 3px 0px 3px;
+  background: #eff2f8;
+}
+#footer .social a:hover {
+  background-color: #31a9e1;
+}
+#footer .social a i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 0 2px;
+}
+#footer .social a:hover i {
+  color: white;
+}
+#footer a {
+  text-decoration: none;
+  color: #0a58ca;
+}
+#footer .fs-5 {
+  font-size: 2.25rem !important;
+}
+
+/* ===================================== footer complete ============================================================== */
