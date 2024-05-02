@@ -1,0 +1,23 @@
+[
+  {
+    "username": "user1",
+    "email": "user1@example.com",
+    "password": "password1",
+    "mobile": "1234567890",
+    "city": "City1"
+  },
+  {
+    "username": "user2",
+    "email": "user2@example.com",
+    "password": "password2",
+    "mobile": "0987654321",
+    "city": "City2"
+  },
+  {
+    "username": "SATHIYA",
+    "email": "sathiya1234@gmail.com",
+    "password": "12345@sat",
+    "mobile": "3652147896",
+    "city": "CHENNAI"
+  }
+]
