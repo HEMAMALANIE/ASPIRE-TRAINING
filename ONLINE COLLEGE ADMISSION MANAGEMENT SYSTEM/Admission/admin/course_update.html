@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="../assets/css/admin_sidebar.css">
+    <link rel="stylesheet" href="../assets/css/admin.css" />
+
+    <!-- media query file -->
+    <link rel="stylesheet" href="../assets/css/mediaquery.css" />
+
+    <script src="https://kit.fontawesome.com/d48236184a.js" crossorigin="anonymous"></script>
+
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="../assets/aos/css/aos.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    
+  
+    <main>
+        <div class="d-flex" id="wrapper">
+            <!-- Sidebar-->
+            <div class="border-end bg-white" id="sidebar-wrapper">
+                <div class="sidebar-heading border-bottom bg-light">Admission Admin</div>
+                <div class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="admin.html">Dashboard</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="admission_enquiry.html">Admission Enquiry</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="registeredApp.html">Registered Applications</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="course_update.html">Courses Update</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">User Accounts</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Status</a>
+                </div>
+            </div>
+            <!-- Page content wrapper-->
+            <div id="page-content-wrapper">
+                <!-- Top navigation-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+                    <div class="container-fluid">
+                        <button class="btn btn-white" id="sidebarToggle"><i class="fa-solid fa-arrow-left"></i></button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                       
+                        <div class="contact_box d-md-flex d-none">
+                            <a href="" class="px-3 py-2 align-self-center text-decoration-none fw-bold rounded-1 profile"><i class="fa-solid fa-user me-2"></i> Admin</a>
+                            <a href="" class="px-3 py-2 align-self-center text-decoration-none fw-bold rounded-1 logout">Logout</a>
+                        </div>
+                    </div>
+                </nav>
+                 
+                <!-- Page content-->
+                <div class="container-fluid pt-3" >
+                    
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10">
+                            <div class="d-flex justify-content-end gap-2">
+                                <button class="add_course px-4 py-2 rounded-pill">Add UG Course</button>
+                                <button class="add_course px-4 py-2 rounded-pill">Add PG COurse</button>
+                            </div>
+                            <table class="table table-striped mt-4">
+                                <thead>
+                                    <tr>
+                                      <th scope="col">S.No</th>
+                                      <th scope="col">UG Courses</th>
+                                      <th scope="col">Total Seats</th>
+                                      <th scope="col">Seats Filled</th>
+                                      <th scope="col">Actions</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody id="table_body">
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>B.E. Computer Science Engineering</td>
+                                      <td>120</td>
+                                      <td>52</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">2</th>
+                                      <td>B.Tech. Information Technology</td>
+                                      <td>60</td>
+                                      <td>53</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">3</th>
+                                      <td>B.Tech. Artificial Intelligence & Data Science</td>
+                                      <td>60</td>
+                                      <td>52</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">4</th>
+                                      <td>B.E. Electrical & Electronics Engineering</td>
+                                      <td>60</td>
+                                      <td>22</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">5</th>
+                                      <td>B.E. Mechanical Engineering</td>
+                                      <td>60</td>
+                                      <td>52</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">6</th>
+                                      <td>B.E. Electronics & Communication Engineering</td>
+                                      <td>60</td>
+                                      <td>12</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                   
+                                   
+                                  </tbody>
+                            </table>
+
+                            <table class="table table-striped mt-4">
+                                <thead>
+                                    <tr>
+                                      <th scope="col">S.No</th>
+                                      <th scope="col">PG Courses</th>
+                                      <th scope="col">Total Seats</th>
+                                      <th scope="col">Seats Filled</th>
+                                      <th scope="col">Actions</th>
+                                    </tr>
+                                  </thead>
+                                  <tbody id="table_body">
+                                    <tr>
+                                      <th scope="row">1</th>
+                                      <td>M.E. Computer Science and Engineering</td>
+                                      <td>18</td>
+                                      <td>2</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">2</th>
+                                      <td>M.E. Applied Electronics</td>
+                                      <td>18</td>
+                                      <td>5</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                    <tr>
+                                      <th scope="row">3</th>
+                                      <td>Master of Business Administration</td>
+                                      <td>60</td>
+                                      <td>32</td>
+                                      <td><button class="btn btn-primary">Edit</button><button class="btn btn-danger ms-2">Delete</button></td>
+                                    </tr>
+                                   
+                                   
+                                  </tbody>
+                            </table>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+      
+        <!-- Core theme JS-->
+        <script src="../assets/js/scripts.js"></script>
+
+      
+        
+    </main>
+
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/aos/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

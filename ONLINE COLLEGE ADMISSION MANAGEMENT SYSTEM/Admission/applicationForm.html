@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admission</title>
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="assets/css/homepage.css" />
+
+    <!-- media query file -->
+    <link rel="stylesheet" href="assets/css/mediaquery.css" />
+
+    <script src="https://kit.fontawesome.com/d48236184a.js" crossorigin="anonymous"></script>
+
+
+    <!-- ------------- aos animation ------------ -->
+    <link rel="stylesheet" type="text/css" href="assets/aos/css/aos.css" />
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+    <header id="header" class="pt-2">
+        <nav class="container navbar_section d-flex justify-content-between align-item-center">
+            <div class="logo_section">
+                <img src="./assets/images/logo-removebg-preview.png" style="visibility: hidden;" alt="" />
+            </div>
+            <div class="navlinks_group d-md-flex d-none justify-content-center align-item-center">
+                <ul class="ul_nav_links d-flex mb-0">
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a class="text-decoration-none" href="homepage.html">Home</a>
+                    </li>
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a  class="text-decoration-none" href="homepage.html#about">About</a>
+                    </li>
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a  class="text-decoration-none" href="homepage.html#placements">Placements</a>
+                    </li>
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a  class="text-decoration-none" href="homepage.html#courses">Courses</a>
+                    </li>
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a  class="text-decoration-none" href="homepage.html#admission">Admission</a>
+                    </li>
+                    <li class="mx-lg-5 mx-md-3 mx-sm-2 align-self-center">
+                        <a  class="text-decoration-none text-nowrap" href="applicationForm.html">Application Form</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact_box d-md-flex d-none">
+                <a href="" class="px-3 py-2 text-nowrap align-self-center text-decoration-none fw-bold rounded-1 profile"><i class="fa-solid fa-user me-2"></i> Hemamalni</a>
+                <a href="" class="px-3 py-2 align-self-center text-decoration-none fw-bold rounded-1 logout">Logout</a>
+            </div>
+
+
+            <button class="btn d-md-none d-block" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                <img src="./assets/images/menu.png" class="mobile_menu" alt="">
+            </button>
+            <div class="offcanvas offcanvas-start " data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <img src="./assets/images/cross_canva.png" class="close_btn_offcanvas" data-bs-dismiss="offcanvas" aria-label="Close" alt="">
+
+                    <img src="./assets/images/logo-removebg-preview.png" class="ms-5 ps-4" alt="">
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="">
+                        <li class="ps-3  py-2"><a class=" text-decoration-none fw-bold" href="#">Home</a></li>
+                        <li class="ps-3  py-2"><a class=" text-decoration-none fw-bold" href="#">About</a></li>
+                        <li class="ps-3  py-2"><a class=" text-decoration-none fw-bold" href="#">Portfolio</a></li>
+                        <li class="ps-3  py-2"><a class=" text-decoration-none fw-bold" href="#">Services</a></li>
+                        <li class="ps-3  py-2"><a class=" text-decoration-none fw-bold" href="#">Blog</a></li>
+                    </ul>
+                    <div class="contact_box d-flex ps-5 pt-4">
+                        <a href="" class="px-3 py-2 align-self-center fw-bold rounded-1">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container px-5">
+
+        <div class="text-center my-5">
+            <h1 class="fw-bolder">Application Registration</h1>
+        </div>
+
+        <form action="">
+       
+        <div class="row py-5">
+            <h3>Personal Information</h3>
+            <hr>
+            <div class="col-6">
+                <div class="form-group">
+                    <label for="">Name<span class="text-danger">*</span> </label>
+                    <input type="text" class="form-control" required>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="">Date of Birth<span class="text-danger">*</span> </label>
+                            <input type="date" name=""  class="form-control" id="" required>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="gender">Gender:</label>
+                            <select id="gender" name="gender" class="form-control" required>
+                                <option value="">Select</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="col-4">
+                        <label for="cast">Cast:</label>
+                        <input type="text" id="cast" name="cast" class="form-control" required><br>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-6">
+                <label for="presentAddress">Present Address:</label>
+                <textarea id="presentAddress" name="presentAddress" class="form-control" required></textarea>
+            </div>
+            
+        </div>
+
+        <!-- Parent Information -->
+        <div class="row py-4">
+            <h3>Parent Information</h3>
+            <hr>
+            <div class="col-4">
+                <label for="fatherName">Father's Name:</label>
+                <input type="text" id="fatherName" name="fatherName" class="form-control" required>
+            </div>
+            <div class="col-4">
+                <label for="motherName">Mother's Name:</label>
+                <input type="text" id="motherName" name="motherName" class="form-control" required>
+            </div>
+            <div class="col-4">
+                <label for="parentContact">Parent's Contact Number:</label>
+                 <input type="tel" id="parentContact" name="parentContact" class="form-control" required>
+            </div>
+
+
+        </div>
+
+
+          <!-- Guardian Information (if any) -->
+          <div class="row py-4">
+              <h3>Guardian Information (if any)</h3>
+              <hr>
+              <div class="col-4">
+                <label for="guardianName">Guardian's Name:</label>
+                <input type="text" id="guardianName" name="guardianName" class="form-control">
+              </div>
+              <div class="col-4">
+                <label for="guardianContact">Guardian's Contact Number:</label>
+                <input type="tel" id="guardianContact" name="guardianContact" class="form-control">
+              </div>
+              <div class="col-4">
+                <label for="guardianAddress">Guardian's Address:</label>
+                <textarea id="guardianAddress" name="guardianAddress" class="form-control"></textarea>
+              </div>
+          </div>
+
+          <!-- Particulars of Last Examination Passed -->
+          <div class="row py-4">
+            <h3>Particulars of Last Examination Passed</h3>
+            <hr>
+            <div class="col-4">
+                <label for="examName">Name of the Examination:</label>
+                <input type="text" id="examName" name="examName" class="form-control" required>
+            </div>
+            <div class="col-2">
+                <label for="examYear">Year:</label>
+                <input type="text" id="examYear" name="examYear" class="form-control" required>
+            </div>
+            <div class="col-3">
+                <label for="boardName">Name of the Board:</label>
+                <input type="text" id="boardName" name="boardName" class="form-control" required>
+            </div>
+            <div class="col-3">
+                <label for="rollNo">Roll No:</label>
+                <input type="text" id="rollNo" name="rollNo" class="form-control" required>
+            </div>
+            <div class="col-4">
+                <label for="subjects">Subjects:</label>
+                <input type="text" id="subjects" name="subjects" class="form-control" required>
+            </div>
+            <div class="col-3">
+                <label for="totalMarks">Total Marks:</label>
+                <input type="number" id="totalMarks" name="totalMarks" class="form-control" required>
+            </div>
+            <div class="col-2">
+                <label for="obtainedMarks">Obtained Marks:</label>
+                <input type="number" id="obtainedMarks" name="obtainedMarks" class="form-control" required>
+            </div>
+            <div class="col-3">
+                <label for="division">Division:</label>
+                <!-- <input type="text" id="division" name="division" class="form-control" required> -->
+                <select name="" id="student_division"  class="form-control">
+                    <option value="None" class="form-control">Select Division</option>
+                    <option value="First Division" class="form-control">First Division 60% - 100%</option>
+                    <option value="Second Division" class="form-control">Second Division 50% - 60%</option>
+                    <option value="Third Division" class="form-control">Third Division 40% - 50%</option>
+                </select>
+            </div>
+          </div>
+
+    
+           <!-- Subjects Offered -->
+           <div class="row py-4">
+                <h3>Course Offered</h3>
+                <hr>
+                <div class="col-4">
+                   
+                    <label for="">Select the course : </label>
+                        <select name="" id="student_course"  class="form-control">
+                            <option value="None" class="form-control">Select prefered course</option>
+                            <option value="B.E. Computer Science Engineering" class="form-control">B.E. Computer Science Engineering</option>
+                            <option value="B.Tech. Information Technology" class="form-control">B.Tech. Information Technology</option>
+                            <option value="B.Tech. Artificial Intelligence & Data Science" class="form-control">B.Tech. Artificial Intelligence & Data Science</option>
+                            <option value="B.Tech. Artificial Intelligence & Machine Learning" class="form-control">B.Tech. Artificial Intelligence & Machine Learning</option>
+                            <option value="B.E. Electrical & Electronics Engineering" class="form-control">B.E. Electrical & Electronics Engineering</option>
+                            <option value="B.E. Mechanical Engineering" class="form-control">B.E. Mechanical Engineering</option>
+                            <option value="B.E. Electronics & Communication Engineering" class="form-control">B.E. Electronics & Communication Engineering</option>
+                            <option value="M.E. Computer Science and Engineering" class="form-control">M.E. Computer Science and Engineering</option>
+                            <option value="M.E. Applied Electronics" class="form-control">M.E. Applied Electronics</option>
+                            <option value="Master of Business Administration" class="form-control">Master of Business Administration</option>
+                        </select>
+                </div>
+                <div class="col-4 mt-4 d-flex align-item-center justify-content-center">
+                    <label for="electives" class="me-5">Student Type:</label>
+                    <span>
+                        <input type="radio" id="electives" class="" name="electives" required>Fresher
+                    </span>
+                    <span>
+                        <input type="radio" id="electives" class="ms-3" name="electives" required>Lateral Entry
+                    </span>
+                </div>
+           </div>
+
+  
+
+            <!-- Other Information -->
+            <div class="row py-4">
+                <h3>Other Information</h3>
+                <hr>
+                <div class="col-4">
+                    <label for="instituteAttended">Name of the Institute Last Attended:</label>
+                    <input type="text" id="instituteAttended" name="instituteAttended" class="form-control" required>
+                </div>
+                <div class="col-4">
+                    <label for="extraActivities">Particulars of Extra Curricular Activities (if any):</label>
+                    <textarea id="extraActivities" name="extraActivities" class="form-control"></textarea>
+                </div>
+            </div>
+
+            <!-- Photos & Documents -->
+            <div class="row py-5">
+                <h3>Photos & Documents</h3><hr>
+                <div class="col-3">
+                    <label for="passport">Passport:</label>
+                    <input type="file" id="passport" name="passport" class="form-control" accept="image/*" required>
+                </div>
+                <div class="col-3">
+                    <label for="signature">Signature:</label>
+                    <input type="file" id="signature" name="signature" class="form-control" accept="image/*" required>
+                </div>
+                <div class="col-4">
+                    <label for="markSheet">Mark Sheet:</label>
+                    <input type="file" id="markSheet" name="markSheet" class="form-control" accept=".pdf,.doc,.docx" required>
+                </div>
+                <div class="col-4 pt-3">
+                    <label for="passCertificate">Pass Certificate:</label>
+                    <input type="file" id="passCertificate" name="passCertificate" class="form-control" accept=".pdf,.doc,.docx" required>
+                </div>
+                <div class="col-4 pt-3">
+                    <label for="castCertificate">Cast Certificate:</label>
+                    <input type="file" id="castCertificate" name="castCertificate" class="form-control" accept=".pdf,.doc,.docx" required>
+                </div>
+            </div>
+            <div class="text-center pb-5 mb-5">
+                <input type="submit" class="btn btn-primary" value="Submit">
+            </div>
+                 
+        </form>
+    </div>
+  
+
+    <script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="assets/aos/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+
+<script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        var isValid = true;
+        var elements = this.elements;
+        var errorMessages = document.getElementsByClassName('error');
+        
+        // Clear previous error messages
+        for (var i = 0; i < errorMessages.length; i++) {
+            errorMessages[i].innerHTML = '';
+        }
+        
+        // Validation for required fields
+        for (var i = 0; i < elements.length; i++) {
+            var field = elements[i];
+            if (field.hasAttribute('required')) {
+                if (!field.value.trim()) {
+                    isValid = false;
+                    var errorMessage = field.getAttribute('name') + ' is required';
+                    field.nextElementSibling.innerHTML = errorMessage;
+                }
+            }
+            
+            // Additional validation for specific fields
+            if (field.id === 'email' && field.value.trim()) {
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailPattern.test(field.value.trim())) {
+                    isValid = false;
+                    field.nextElementSibling.innerHTML = 'Invalid email format';
+                }
+            }
+            
+            if (field.id === 'parentContact' || field.id === 'guardianContact') {
+                var contactPattern = /^\d{10}$/;
+                if (!contactPattern.test(field.value.trim())) {
+                    isValid = false;
+                    field.nextElementSibling.innerHTML = 'Invalid contact number format (10 digits)';
+                }
+            }
+            
+            if (field.id === 'totalMarks' || field.id === 'obtainedMarks') {
+                if (isNaN(field.value.trim())) {
+                    isValid = false;
+                    field.nextElementSibling.innerHTML = 'Must be a number';
+                }
+            }
+        }
+        
+        // If any field is invalid, prevent form submission
+        if (!isValid) {
+            event.preventDefault();
+        }
+    });
+    </script>
+    

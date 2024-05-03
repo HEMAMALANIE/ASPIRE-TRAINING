@@ -1,0 +1,164 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* ipad air  */
+@media only screen and (max-device-width: 820px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+ 
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   
+}
+
+/* /* ---- iphone 13pro max ---------- */
+@media only screen and (max-device-width: 430px) {
+    #hero_section .container .row .hero_section_content .main_headline_text {
+        font-size: 2.3rem;
+    }
+    .eco_globe_img {
+        transform: scale(0.97);
+    }
+    @keyframes ring {
+        0% { transform: rotate(0); }
+        1% { transform: rotate(10deg); }
+        3% { transform: rotate(-9deg); }
+        5% { transform: rotate(11deg); }
+        7% { transform: rotate(-10deg); }
+        9% { transform: rotate(10deg); }
+        11% { transform: rotate(-9deg); }
+        13% { transform: rotate(8deg); }
+        15% { transform: rotate(-7deg); }
+        17% { transform: rotate(6deg); }
+        19% { transform: rotate(-5deg); }
+        21% { transform: rotate(4deg); }
+        23% { transform: rotate(-3deg); }
+        25% { transform: rotate(2deg); }
+        27% { transform: rotate(-1deg); }
+        29% { transform: rotate(1deg); }
+        31% { transform: rotate(-1deg); }
+        33% { transform: rotate(1deg); }
+        35% { transform: rotate(-1deg); }
+        37% { transform: rotate(1deg); }
+        39% { transform: rotate(-1deg); }
+        41% { transform: rotate(0); }
+        
+        43% { transform: rotate(0); }
+        100% { transform: rotate(0); }
+    }
+    
+    /* ---------------------------- */
+
+    #advantage_flow{
+        height: 600px;
+    }
+    #advantage_flow .advantages_of_eco {
+        position: absolute;
+        left: 0;
+    }
+    #advantage_flow .advantages_of_eco .left_most_img {
+        top: -53px;
+        left: 3px;
+    }
+    #advantage_flow .green_tech {
+        left: -78px;
+        top: 13px;
+    }
+    #advantage_flow .middle_1_img {
+        left: 204px;
+        top: -73px;
+        transform: rotate(68deg);
+    }
+    #advantage_flow .cleantech {
+        top: -13px;
+    }
+    #advantage_flow .middle_2_img {
+        left: 23px;
+        top: -116px;
+        transform: rotate(165deg);
+    }
+    #advantage_flow .ecofriendly {
+        left: -112px;
+        top: -39px;
+    }
+    #advantage_flow .middle_3_img {
+        top: -86px;
+        left: 10px;
+        transform: rotate(204deg);
+    }
+    #advantage_flow .future_oriented {
+        left: -12px;
+        top: -50px;
+    }
+    #advantage_flow .right_most_img {
+        left: 167px;
+        top: -109px;
+    }
+    /* ----------------------------- */
+    #story_and_choose_us .story_text{
+        font-size: 1.2rem;
+    }
+    /* ------------------------------------- */
+
+    #our_services .service_flow_bg {
+        position: relative;
+        top: 172px;
+        height: 759px;
+        transform: scale(1);
+    }
+    #our_services .first_box {
+        
+        left: 8px;
+    }
+    #our_services .second_box {
+        top: 439px;
+        right: 30px;
+    }
+    #our_services .third_box {
+        top: 785px;
+        left: 2px;
+    }
+    #our_services .fourth_box {
+        top: 1137px;
+        right: 30px;
+    }
+}
+
+/* /* ---- iphone XR max ---------- */
+@media only screen and (max-device-width: 414px) {
+    
+}
+
+/* pixel 5  ----------- */
+@media only screen and (max-device-width: 393px) {
+   
+}
+
+/* iPhone 12 pro ----------- */
+@media only screen and (max-device-width: 390px) {
+    
+}
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (max-device-width: 375px) {
+    
+}
+
+/* samsung galaxy  */
+@media only screen and (max-device-width: 360px) {
+
+}
+
+
